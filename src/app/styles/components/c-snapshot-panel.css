@@ -1,0 +1,82 @@
+.c-snapshot-panel {
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 0px 0px 0px 4px #08f7f4;
+  background: white;
+  padding: 0px;
+}
+.c-snapshot-panel:before {
+  content:'';			
+  display: block;
+  position: absolute;
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+  height: calc(100% - 0px); 
+  top:0;
+  width: calc(100% - 36px);
+  left:18px;
+ }
+ .c-snapshot-panel:after {
+  display: block;
+  position: absolute;
+  content:'';
+  border-right: 4px solid white;
+  border-left: 4px solid white;
+  height: calc(100% - 36px);
+  width: calc(100% - 0px);
+  top: 18px;
+  left: 0;
+ }
+.c-snapshot-panel__title {
+  padding-top: 25px;
+}
+.c-snapshot-panel__content {
+  text-align: center;
+  padding: 25px 15px;
+}
+
+/* PRIMARY */
+.c-snapshot-panel.c-snapshot-panel--primary {
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 0px 0px 0px 4px transparent;
+  background: white;
+  padding: 0px;
+}
+.c-snapshot-panel.c-snapshot-panel--primary:before {
+  content:'';			
+  display: block;
+  position: absolute;
+  border-top: 4px solid var(--white);
+  border-bottom: 4px solid var(--white);
+  height: calc(100% - 0px); 
+  top:0;
+  width: calc(100% - 36px);
+  left:18px;
+ }
+ .c-snapshot-panel.c-snapshot-panel--primary:after {
+  display: block;
+  position: absolute;
+  content:'';
+  border-right: 4px solid var(--white);
+  border-left: 4px solid var(--white);
+  height: calc(100% - 36px);
+  width: calc(100% - 0px);
+  top: 18px;
+  left: 0;
+ }
+
+/* ==============================
+=== SMALL : 300-599px
+=*/
+/* @media (width >= 300px) {} */
+
+/* ==============================
+=== MEDIUM : 600-899px
+=*/
+/* @media (width >= 600px) {} */
+
+/* ==============================
+=== Large : 900-1199px
+=*/
+/* @media (width >= 900px) {} */

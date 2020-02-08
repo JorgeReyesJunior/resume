@@ -1,0 +1,73 @@
+.c-headshot {
+  padding-top: 25px;
+  text-align: center;
+}
+.c-headshot__figure {
+  position: relative;
+  overflow: hidden;
+}
+.c-headshot__figure .progress-ring {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 100%;
+  z-index: 1;
+}
+.c-headshot__figure .progress-ring__circle {
+  cy: 50%;
+  cx: 50%;
+  fill: transparent;
+}
+.c-headshot__figure .progress-ring:nth-child(1) circle {
+  r: 48%;
+  stroke-dasharray: 1;
+}
+.c-headshot__figure .progress-ring:nth-child(2) circle {
+  r: 45%;
+}
+.c-headshot__figure .progress-ring:nth-child(3) circle {
+  r: 45%;
+  stroke-dasharray: 115 315;
+}
+.c-headshot__figure .progress-ring:nth-child(4) circle {
+  r: 50%;
+  stroke-dasharray: 2 15 12;
+}
+.c-headshot__image {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  padding: 15px;
+  border-radius: 100%;
+  background: var(--tron-dark-blue);
+  z-index: 0;
+}
+
+/* ==============================
+=== SMALL : 300-599px
+=*/
+/* @media (width >= 300px) {} */
+
+
+/* ==============================
+=== MEDIUM : 600-899px
+=*/
+/* @media (width >= 600px) {} */
+
+/* ==============================
+=== Large : 900-1199px
+=*/
+@media (width >= 900px) {
+  .c-headshot {
+    padding-top: 50px;
+  }
+}

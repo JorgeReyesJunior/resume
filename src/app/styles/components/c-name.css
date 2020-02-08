@@ -1,0 +1,47 @@
+.c-name {
+  text-align: center;
+  font-size: 26px;
+}
+.c-name__first,
+.c-name__last,
+.c-name__suffix {
+  display: inline-block;
+  transform: scale(0.95, 0.85);
+}
+.c-name__first {
+  color: var(--tron-dark-blue);
+  font-weight: 400;
+}
+.c-name__last {
+  color: var(--tron-dark-blue);
+  font-weight: 700;
+}
+.c-name__suffix {
+  color: var(--tron-dark-blue);
+  font-weight: 400;
+  transform: scale(0.75, 0.75);
+}
+
+/* ==============================
+=== SMALL : 300-599px
+=*/
+/* @media (width >= 300px) {} */
+
+/* ==============================
+=== MEDIUM : 600-899px
+=*/
+@media (width >= 600px) {
+  .c-name {
+    padding-top: 50px;
+    font-size: 32px;
+  }
+}
+
+/* ==============================
+=== Large : 900-1199px
+=*/
+@media (width >= 900px) {
+  .c-name {
+    font-size: 38px;
+  }
+}

@@ -1,0 +1,38 @@
+.o-app-layout {
+  /* as a grid */
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+  overflow: hidden;
+  z-index: 1;
+}
+.o-app-layout__mainscreen {
+  /* as a sub-grid */
+  position: relative;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  transform: translateX(0);
+  transition: all 0.3s;
+}
+
+/* ==============================
+=== SMALL : 300-599px
+=*/
+/* @media (width >= 300px) {} */
+
+/* ==============================
+=== MEDIUM : 600-899px
+=*/
+@media (width >= 600px) {
+  .o-app-layout {
+    grid-column-end: 4;
+  }
+}
+
+/* ==============================
+=== LARGE : 900-1199px
+=*/
+/* @media (width >= 900px) {} */

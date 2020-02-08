@@ -1,0 +1,43 @@
+.c-skillset {
+  text-align: center;
+}
+
+/* CARDS */
+.c-skillset__card {
+  background: #edf0f1;
+}
+.c-skillset__content {
+  position: relative;
+}
+
+.c-skillset__content .progress-ring .progress-ring__circle {
+  stroke: var(--tron-light-blue);
+}
+.c-skill--icon {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.c-skill--title {
+  font-size: 56px;
+}
+.c-skillset__icon {
+  height: 50px;
+}
+/* ==============================
+=== SMALL : 300-599px
+=*/
+/* @media (width >= 300px) {} */
+
+/* ==============================
+=== MEDIUM : 600-899px
+=*/
+/* @media (width >= 600px) {} */
+
+/* ==============================
+=== Large : 900-1199px
+=*/
+/* @media (width >= 900px) {} */

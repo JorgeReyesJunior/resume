@@ -1,0 +1,52 @@
+.o-app-background,
+.o-app-background__video,
+.o-app-background__image,
+.o-app-background__overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+/* Default to hide the video on all devices */
+.o-app-background__video {
+  display: none
+}
+/* Default to display the image on all devices */
+.o-app-background__image {
+  display: block;
+  width: auto;
+  height: 100%;
+}
+/* Default to show the overlay on all devices */
+.o-app-background__overlay {
+  display: block;
+  /* background: rgba(1, 1, 2, 0.25); */
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+/* ==============================
+=== SMALL : 300-599px
+=*/
+/* @media (width >= 300px) {} */
+
+/* ==============================
+=== MEDIUM : 600-899px
+=*/
+/* @media (width >= 600px) {} */
+
+/* ==============================
+=== Large : 900-1199px
+=*/
+@media (width >= 900px) {
+/* If screen is 900px or more, then display the video and hide the image */
+  .o-app-background__video {
+    display: block;
+  }
+  .o-app-background__image {
+    display: none
+  }   
+}

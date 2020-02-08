@@ -1,0 +1,24 @@
+/**
+ *
+ *  Using `Custom Properties`:
+ *    - https://github.com/postcss/postcss-custom-properties
+ *
+**/
+:root {
+  --white: #fff;
+  --black: #000;
+  --theme-color--primary: #00b0ff;
+  --theme-color--secondary: #afff00;
+  --theme-color--tertiary: #ff00b3;
+
+  /* --tron-blue: #0af7f4; */  
+  /* --tron-red: #e94935; */
+  /* --tron-yellow: #fdd700; */ 
+
+  --tron-dark-blue: #03161b;
+  --tron-medium-blue: #0b2329;
+  --tron-blue: #149ca4;
+  --tron-light-blue: #0af7f4;
+  --tron-active-white: #f1fcff;
+  --tron-inactive-white: #b4bdbf;
+} 
