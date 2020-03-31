@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
 import Body from './Body/Body';
 import Header from './Header/Header';
-import ThemeContext from '../../themes/Themes' 
+import ThemeContext from '../Themes/Themes' 
 
 const Resume = () => {
   const activeTheme = useContext(ThemeContext);

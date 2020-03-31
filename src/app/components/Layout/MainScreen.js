@@ -1,5 +1,5 @@
 import React from 'react';
-import ThemeWrapper from '../Resume/ThemeWrapper'
+import ThemeWrapper from '../Themes/ThemeWrapper'
 
 const MainScreen = () => {  
   return (

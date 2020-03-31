@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import ThemeContext from '../../../themes/Themes';
+import ThemeContext from '../../Themes/Themes';
 import ProgressRing from '../Body/ProgressRing';
 
 const Headshot = () => {
