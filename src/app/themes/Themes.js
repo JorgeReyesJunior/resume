@@ -1,21 +1,31 @@
 import React from 'react';
 
+// IDEA: Add color scheme.
 const Themes = {
   Default: {
     className: "t--default",
-    themeName: "Default"
+    themeName: "Default",
+    themeBase: "red"
   },
-  "Jurrassic Park": {
+  "Jurassic Park": {
     className: "t--jurassic-park",
-    themeName: "Jurassic Park"
+    themeName: "Jurassic Park",
+    themeBase: "blue"
+  },
+  "Night Mode": {
+    className: "t--night-mode",
+    themeName: "Night Mode",
+    themeBase: "green"
   },
   Operator: {
     className: "t--operator",
-    themeName: "Operator"
+    themeName: "Operator",
+    themeBase: "black"
   },
   Tron: {
     className: "t--tron",
-    themeName: "Tron"
+    themeName: "Tron",
+    themeBase: "orange"
   }
 };
 
