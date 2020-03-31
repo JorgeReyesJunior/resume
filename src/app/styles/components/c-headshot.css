@@ -48,10 +48,29 @@
   margin: auto;
   padding: 15px;
   border-radius: 100%;
-  background: var(--tron-dark-blue);
   z-index: 0;
 }
 
+/*== Themes ===*/
+
+/** Default **/
+.t--default .c-headshot__image {
+  background: red;
+}
+/** Jurassic Park **/
+.t--jurassic-park .c-headshot__image {
+  background: orange;
+}
+
+/** Operator **/
+.t--operator .c-headshot__image {
+  background: black;
+}
+
+/** Tron **/
+.t--tron .c-headshot__image {
+  background: var(--tron-dark-blue);
+}
 /* ==============================
 === SMALL : 300-599px
 =*/
