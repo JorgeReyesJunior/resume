@@ -33,7 +33,7 @@ const ProgressRing = (props) => {
           className="progress-ring__circle"
           stroke={`${stroke}`}
           strokeWidth={`${strokeWidth}`}
-          strokeDasharray={`${circumference}` + ' ' + `${circumference}`}
+          strokeDasharray={`${circumference} ${circumference}`}
           style={setProgress(targetProgress)}
           fill={`${fill}`}
           r={`${radius}`}
@@ -53,7 +53,7 @@ const ProgressRing = (props) => {
           className="progress-ring__circle"
           stroke={`${stroke}`}
           strokeWidth={`${strokeWidth}`}
-          strokeDasharray={`${circumference}` + ' ' + `${circumference}`}
+          strokeDasharray={`${circumference} ${circumference}`}
           style={setProgress(targetProgress)}
           fill={`${fill}`}
           r={`${radius}`}
