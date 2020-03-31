@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Profile = () => {
-  {/* Engineer: Do what I want with what I have */}
   return (
     <section className="o-resume__profile">
       <div className="c-data-panel">
