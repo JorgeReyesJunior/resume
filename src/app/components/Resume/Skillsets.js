@@ -1,36 +1,27 @@
-import React from 'react';
-import ProgressRing from './ProgressRing';
-import Skill from './Skill';
+import React, {useEffect, useState} from 'react';
+import SkillsetsBars from './SkillSetsBars';
+import SkillsetsCards from './SkillSetsCards';
 
 const Skillsets = () => {
-  return (
-    <section className="o-resume__skillset">
-      <div className="c-data-panel">
-        <h2 className="c-data-panel__title">Skillsets</h2>
-        <div className="c-data-panel__content">
-          <div className="c-snapshot-panel">
-            <div className="c-snapshot-panel__content">
-              {/* SKILLSET CARDS */}
-              <div className="c-skillset__card">
-                <h3 className="c-skillset__title">c-skillset__card</h3>
-                <div className="c-skillset__content">
-                  <ProgressRing
-                    height="200"
-                    width="200"
-                    stroke="white"
-                    // 4
-                    strokeWidth="8"
-                    fill="transparent"
-                    targetProgress="75" />
-                  <Skill title={`JS`}/>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  )
-};
+  const [isDesktop, setDesktop] = useState(window.innerWidth > 900);
 
+  const updateMedia = () => {
+    setDesktop(window.innerWidth > 900);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", updateMedia);
+    return () => window.removeEventListener("resize", updateMedia);
+  });
+
+  return (
+    <div>
+      {isDesktop ? (
+        <SkillsetsCards />
+      ) : (
+        <SkillsetsBars />
+      )}
+    </div>
+  );
+}
 export default Skillsets;
