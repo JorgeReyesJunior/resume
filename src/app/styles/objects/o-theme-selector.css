@@ -1,0 +1,34 @@
+.o-theme-selector {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.o-theme-selector__radio {
+  margin: 5px;
+  padding: 5px;
+}
+.o-theme-selector__input {
+  margin-right: 4px;
+}
+
+/* ==============================
+=== SMALL : 300-599px
+=*/
+@media (width >= 300px) {
+  .o-theme-selector {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    overflow: scroll;
+  }
+}
+
+/* ==============================
+=== MEDIUM : 600-899px
+=*/
+/* @media (width >= 600px) {} */
+
+/* ==============================
+=== LARGE : 900-1199px
+=*/
+/* @media (width >= 900px) {} */
