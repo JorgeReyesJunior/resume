@@ -2,3 +2,7 @@
   text-align: left;
   word-break: break-word;
 }
+.c-contact__listing {
+  display: block;
+  padding: 10px;
+}
