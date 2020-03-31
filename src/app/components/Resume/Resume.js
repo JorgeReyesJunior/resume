@@ -1,25 +1,23 @@
-import React from 'react';
-import Contact from './Contact';
-import Education from './Education';
-import Experience from './Experience';
-import Name from './Name';
-import Headshot from './Headshot';
-import Headline from './Headline';
-import Profile from './Profile';
-import Skillsets from './Skillsets';
+import React, {useContext} from 'react';
+import Body from './Body';
+import Header from './Header';
+import ThemeContext from '../../themes/Themes' 
 
 const Resume = () => {
+  const activeTheme = useContext(ThemeContext);
+
   return (
-    <div className="o-resume">
-      <Headshot />
-      <Name />
-      <Headline />
-      <Contact />
-      <Profile />
-      <Education />
-      <Skillsets />
-      <Experience />
-    </div>
+      <div className={`${activeTheme.className} o-resume`}>>
+        <Header
+          /* if `omitHeadshotAndHeadline` is true, `includeHeadshotOnly` and `includeHeadshotAndHeadline` will not render */
+          omitHeadshotAndHeadline={true}
+          /* if `omitHeadshotAndHeadline` is true, `includeHeadshotOnly` will not render */
+          includeHeadshotOnly={false}
+          /* if `omitHeadshotAndHeadline` or `includeHeadshotOnly` are true, includeHeadshotAndHeadline` will not render */
+          includeHeadshotAndHeadline={false}
+        />
+        <Body />
+      </div>
   )
 };
 
