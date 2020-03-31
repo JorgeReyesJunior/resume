@@ -6,30 +6,30 @@ import Headshot from './Headshot';
 const Header = (props) => {
   if (props.omitHeadshotAndHeadline) {
     return (
-      <div className="o-resume__header">
+      <header className="o-resume__header">
         <Name />
-      </div>
+      </header>
     )
   } else if (props.includeHeadshotOnly) {
     return (
-      <div className="o-resume__header--with-headshot">
+      <header className="o-resume__header--with-headshot">
         <Headshot />
         <Name />
-      </div>
+      </header>
     )
   } else if (props.includeHeadshotAndHeadline) {
     return (
-      <div className="o-resume__header--with-headshot-and-headline">
+      <header className="o-resume__header--with-headshot-and-headline">
         <Headshot />
         <Name />
         <Headline />
-      </div>
+      </header>
     )
   } else {
     return (
-      <div className="o-resume__header">
+      <header className="o-resume__header">
         <Name />
-      </div>
+      </header>
     )
   }
 };

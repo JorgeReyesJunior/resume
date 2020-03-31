@@ -1,6 +1,6 @@
 import React from 'react';
 import Resume from './Resume'
-import ThemeSelector from './ThemeSelector';
+import ThemeSelector from '../../themes/ThemeSelector';
 
 const ThemeSelectorWrapper = () => {
   return (

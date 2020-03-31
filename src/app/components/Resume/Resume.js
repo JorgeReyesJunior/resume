@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
-import Body from './Body';
-import Header from './Header';
+import Body from './Body/Body';
+import Header from './Header/Header';
 import ThemeContext from '../../themes/Themes' 
 
 const Resume = () => {

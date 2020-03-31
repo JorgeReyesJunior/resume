@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import ThemeContext from '../../themes/Themes';
+import ThemeContext from './Themes';
 
 const ThemeSelector = (props) => {
   const allThemes = useContext(ThemeContext);

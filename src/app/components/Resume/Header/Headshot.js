@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import ThemeContext from '../../themes/Themes';
-import ProgressRing from './ProgressRing';
+import ThemeContext from '../../../themes/Themes';
+import ProgressRing from '../Body/ProgressRing';
 
 const Headshot = () => {
   const activeTheme = useContext(ThemeContext);
