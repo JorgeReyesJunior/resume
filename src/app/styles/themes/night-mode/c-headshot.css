@@ -1,0 +1,31 @@
+/*== Themes - NIGHT VISION ===*/
+/* Resume */
+.t--night-vision.o-resume {
+  background: linear-gradient(3deg, rgba(0,0,0,1) 0%, rgba(2,8,5,1) 81%, rgba(14,61,39,1) 86%, rgba(56,255,164,1) 91%, rgba(14,61,39,1) 96%, rgba(0,2,1,1) 100%);
+}
+.t--night-vision.o-resume__name {
+  color: #55f9a0;
+  text-shadow: -1px -1px 15px #56f8a0, -2px 2px 15px #56f8a0;
+  background: none;
+}
+/* .t--night-vision .c-bio__name {
+  text-shadow: -1px -1px 15px #56f8a0, -2px 2px 15px #56f8a0;
+} */
+.t--night-vision .c-bio__accent {
+  background: #55f9a0;
+}
+
+/* ==============================
+=== SMALL : 300-599px
+=*/
+/* @media (width >= 300px) {} */
+
+/* ==============================
+=== MEDIUM : 600-899px
+=*/
+/* @media (width >= 600px) {} */
+
+/* ==============================
+=== Large : 900-1199px
+=*/
+/* @media (width >= 900px) {} */

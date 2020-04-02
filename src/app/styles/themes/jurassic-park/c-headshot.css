@@ -1,0 +1,36 @@
+/*== Themes - JURASSIC PARK ===*/
+/* Resume */
+.t--jurassic-park.o-resume {
+  background: darkgray;
+}
+
+.t--jurassic-park .c-bio__name {
+  text-shadow: 4px -2px 0px white, -4px 4px 0px white;
+  color: red;
+}
+
+.t--jurassic-park .c-bio__name {
+  background: black;
+  border-top: 4px yellow solid;
+  border-right: 4px yellow solid;
+  border-left: 4px yellow solid;
+  letter-spacing: 5px;
+  text-shadow: 
+  3px -2px 0px white, -3px -2px 0px white, -4px 2px 0px white, 3px 2px 0px white, -3px -2px 0px white, -5px -2px 0px white, -3px 2px 0px white;
+  color: red;
+
+}
+/* ==============================
+=== SMALL : 300-599px
+=*/
+/* @media (width >= 300px) {} */
+
+/* ==============================
+=== MEDIUM : 600-899px
+=*/
+/* @media (width >= 600px) {} */
+
+/* ==============================
+=== Large : 900-1199px
+=*/
+/* @media (width >= 900px) {} */
