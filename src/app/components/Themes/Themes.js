@@ -12,9 +12,9 @@ const Themes = {
     themeName: "Jurassic Park",
     themeBase: "blue"
   },
-  "Night Mode": {
-    className: "t--night-mode",
-    themeName: "Night Mode",
+  "Night Vision": {
+    className: "t--night-vision",
+    themeName: "Night Vision",
     themeBase: "green"
   },
   Operator: {
@@ -22,11 +22,11 @@ const Themes = {
     themeName: "Operator",
     themeBase: "black"
   },
-  Tron: {
-    className: "t--tron",
-    themeName: "Tron",
-    themeBase: "orange"
-  }
+  // Tron: {
+  //   className: "t--tron",
+  //   themeName: "Tron",
+  //   themeBase: "orange"
+  // }
 };
 
 const ThemeContext = React.createContext(Themes);
