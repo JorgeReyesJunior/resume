@@ -1,10 +1,10 @@
 import React from 'react';
-import ThemeWrapper from '../Themes/ThemeWrapper'
+import Resume from '../Resume/Resume'
 
 const MainScreen = () => {  
   return (
     <div className="o-main-screen">
-        <ThemeWrapper />
+      <Resume />
     </div>
   )
 };
