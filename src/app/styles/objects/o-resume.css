@@ -137,14 +137,14 @@
 @media (width >= 900px) {
   .o-resume {
     /* as a grid */
-    width: 100%;
-    grid-template-rows: repeat(6, auto);
+    width: 80%;
+    /* grid-template-rows: repeat(6, auto); */
   }
 
   /*== Body ===*/
   .o-resume__body {
     /* as a grid */
-    /* grid-template-rows: repeat(8, 1fr); */
+    grid-template-rows: repeat(5, auto);
   }
   .o-resume__headshot,
   .o-resume__name,
@@ -168,7 +168,7 @@
   .o-resume__experience {
     background: transparent;
   }
-
+  
   .o-resume__headshot {
     grid-column-start: 1;
     grid-column-end: 6;
@@ -191,32 +191,31 @@
     grid-row-start: 2;
     grid-row-end: 3;
   }
+  .o-resume__profile {
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
   .o-resume__contact {
-    grid-column-end: 6;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .o-resume__education {
+    grid-column-end: 7;
     grid-row-start: 3;
     grid-row-end: 4;
   }
-  .o-resume__profile {
-    grid-column-end: 6;
+  .o-resume__skillset {
+    grid-column-end: 7;
     grid-row-start: 4;
     grid-row-end: 5;
-    background: blue
-  }
-  .o-resume__education {
-    grid-column-end: 6;
-    grid-row-start: 5;
-    grid-row-end: 6;
-  }
-  .o-resume__skillset {
-    grid-column-end: 6;
-    grid-row-start: 6;
-    grid-row-end: 7;
   }
   .o-resume__experience {
-    grid-column-start: 6;
+    grid-column-start: 7;
     grid-column-end: 13;
-    grid-row-start: 3;
-    grid-row-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 5;
   }
 }
 
