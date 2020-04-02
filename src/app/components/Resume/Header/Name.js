@@ -1,10 +1,8 @@
-import React, {useContext} from 'react';
-import ThemeContext from '../../Themes/Themes' 
+import React from 'react';
 
 const Name = () => {
-  const activeTheme = useContext(ThemeContext);
   return (
-    <section className={`${activeTheme.className} o-resume__name`}>
+    <section className={`o-resume__name`}>
       <div className="c-bio">
         <h1 className="c-bio__name">Jorge Reyes Jr.</h1>
         <hr className="c-bio__accent"></hr>
