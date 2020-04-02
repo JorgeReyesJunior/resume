@@ -4,6 +4,7 @@
 
 /* CARDS */
 .c-skillset__card {
+  padding: 15px;
   background: #edf0f1;
 }
 .c-skillset__content {
