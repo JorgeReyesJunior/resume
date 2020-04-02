@@ -1,10 +1,13 @@
-import React from 'react';
+import React, {useContext} from 'react';
 // import Image from '../../../assets/media/images/white-triangles-background.png';
 // import Video from '../../../assets/media/videos/white-triangles-background.mp4';
+import ThemeContext from '../Themes/Themes';
 
-const AppBackground = () => {  
+const AppBackground = () => {
+  const activeTheme = useContext(ThemeContext);
+
   return (
-    <div className="o-app-background">
+    <div className={`${activeTheme.className} o-app-background`}>
       <div className="o-app-background__overlay"></div>
       {/* // NOTE: for 'master': 'https://jorgereyesjunior.github.io/src/assets/media/images/white-triangles-background.png' */}
       {/* // NOTE: for 'development': <img className="o-app-background__image" src={Image} alt="Full screen background image of abstract white triangles"></img> */}
