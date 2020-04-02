@@ -10,12 +10,12 @@ import PropTypes from 'prop-types';
 // import RootReducer from './app/reducers/all';
 // import RootSaga from './app/sagas';
 import App from './app/components/App/App';
+import ThemeWrapper from './app/components/Themes/ThemeWrapper'
 import * as serviceWorker from './serviceWorker';
 import './app/styles/imports.css'
 
-const store = createStore(() => {});
-
 // const sagaMiddleware = createSagaMiddleware();
+const store = createStore(() => {});
 // const store = createStore(
 //   RootReducer,
 //   applyMiddleware(sagaMiddleware)
@@ -27,14 +27,16 @@ Provider.propTypes = {
   store: PropTypes.object.isRequired
 };
 
-store.subscribe(() => {
-  // let newState = store.getState();
-  // console.log("New `store` state: ", newState);
-});
+// store.subscribe(() => {
+//   // let newState = store.getState();
+//   // console.log("New `store` state: ", newState);
+// });
 
 render(
   <Provider store={store}>
-    <App />
+    <ThemeWrapper>
+      <App />
+    </ThemeWrapper>
   </Provider>,
   document.getElementById('o-app-root')
 );
