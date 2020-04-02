@@ -1,0 +1,69 @@
+{
+  "resume": {
+    "profile": "I am a detail-oriented software engineer with experience developing high-performing software applications and reliably delivering high-quality web-based solutions to effectively support teams and organizations achieve their digital strategies.",
+    "contact": {
+      "email": "reyes.junior.27@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/jareyesjr/"
+    },
+    "projects": {
+      "github.io": "https://jorgereyesjunior.github.io"
+    },
+    "education": {
+      "school": "University of California, Davis",
+      "location": "Davis, CA",
+      "degree": "B.A. in Exercise Biology",
+      "graduationYear": "2013"
+    },
+    "skills": {
+      "primary": {
+        "versionControl": ["Git"],
+        "APIs": ["REST", "graphQL"],
+        "markup": ["HTML5"],
+        "styling": ["CSS3", "Less", "Sass"],
+        "scripting": ["CoffeeScript", "JavaScript", "Node.js"],
+        "frameworks": ["Express.js"],
+        "libraries": ["jQuery", "React", "Redux", "Redux-Saga"],
+        "tools": ["Babel", "PostCSS", "Webpack"]
+      },
+      "secondary": ["Backbone.js", "Docker/Containerization", "Mercurial (VCS)", "PHP", "Python", "Require.js", "Underscore.js", "Wordpress", "XHTML"]
+    },
+    "experience": [
+      {
+        "organization": "TouchTo",
+        "position": "Software Engineer",
+        "location": "Austin, TX",
+        "startDate": "04.2019",
+        "endDate": "03.27.2020",
+        "role": "Served a large online travel agency as an onsite consultant developer, working closely with product and engineering teams to",
+        "achievements": ["Provide privileged business teams access to internal analytics and business-critical data for strategic analysis.", "Develop 3+ enterprise software solutions that integrate and operate within the client's internal platform ecosystem.", "Present aggregated competitive market data assembled from 3+ different subsidiary brands across 5+ different data endpoints."]
+      },
+      {
+        "organization": "Golden Frog, GmbH.",
+        "position": "Software Engineer",
+        "location": "Austin, TX",
+        "startDate": "06.2017",
+        "endDate": "02.2019",
+        "role": "Served as an onsite developer for an internet privacy and security solutions provider, working closely with design, engineering, marketing, and product teams to",
+        "achievements": ["Develop and improve on legacy web application interfaces for a multiple product lines and services across 3+ different brands.", "Promote and assist in the development of an internal pattern library to unify design consistency across design and engineering teams to create more efficient development cycles.", "Maintain and refactor the architecture of 2+ legacy websites while regularly delivering new user-facing features."]
+      },
+      {
+        "organization": "Harris Media, LLC.",
+        "position": "Software Engineer",
+        "location": "Austin, TX",
+        "startDate": "04.2019",
+        "endDate": "03.27.2020",
+        "role": "Served a large online travel agency as an onsite consultant developer, working closely with product and engineering teams to",
+        "achievements": ["Provide privileged business teams access to internal analytics and business-critical data for strategic analysis.", "Develop 3+ enterprise software solutions that integrate and operate within the client's internal platform ecosystem.", "Present aggregated competitive market data assembled from 3+ different subsidiary brands across 5+ different data endpoints."]
+      },
+      {
+        "organization": "TouchTo",
+        "position": "Software Engineer",
+        "location": "Austin, TX",
+        "startDate": "04.2019",
+        "endDate": "03.27.2020",
+        "role": "Served a large online travel agency as an onsite consultant developer, working closely with product and engineering teams to",
+        "achievements": ["Provide privileged business teams access to internal analytics and business-critical data for strategic analysis.", "Develop 3+ enterprise software solutions that integrate and operate within the client's internal platform ecosystem.", "Present aggregated competitive market data assembled from 3+ different subsidiary brands across 5+ different data endpoints."]
+      }
+    ]
+  }
+}
