@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {Fragment, useEffect, useState} from 'react';
 import SkillsetsBars from './SkillSetsBars';
 import SkillsetsCards from './SkillSetsCards';
 
@@ -15,13 +15,14 @@ const Skillsets = () => {
   });
 
   return (
-    <div>
-      {isDesktop ? (
-        <SkillsetsCards />
-      ) : (
-        <SkillsetsBars />
-      )}
-    </div>
+    <Fragment>
+      {
+        isDesktop ? (
+          <SkillsetsCards />
+        ) : (
+          <SkillsetsBars />
+        )}
+    </Fragment>
   );
 }
 export default Skillsets;
