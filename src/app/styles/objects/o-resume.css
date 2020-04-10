@@ -3,11 +3,11 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 1fr auto;
-  /* TEST */
-  background: grey;
 }
 
-/*== Header ===*/
+/* ================
+==/ HEADER
+================ */
 .o-resume__header {
   /* as a subgrid */
   grid-column-start: 1;
@@ -19,8 +19,6 @@
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto auto;
 }
-
-/*== Header (without headshot) ===*/
 .o-resume__header--with-headshot {
   /* as a subgrid */
   grid-column-start: 1;
@@ -32,10 +30,8 @@
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(3, auto);
   /* TEST */
-  background: darkslateblue;
+  /* background: darkslateblue; */
 }
-
-/*== Header (with headshot and headline) ===*/
 .o-resume__header--with-headshot-and-headline {
   /* as a subgrid */
   grid-column-start: 1;
@@ -47,10 +43,16 @@
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(4, auto);
   /* TEST */
-  background: darkkhaki;
+  /* background: darkslateblue; */
+}
+.o-resume__bio {
+  grid-column-start: 1;
+  grid-column-end: 13;
 }
 
-/*== Body ===*/
+/* ================
+==/ BODY
+================ */
 .o-resume__body {
   /* as a subgrid */
   grid-column-start: 1;
@@ -60,55 +62,37 @@
   /* as a grid */
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(8, auto);
-  /* TEST */
-  background: darkgray;
+  grid-template-rows: repeat(5, auto);
 }
-.o-resume__headshot,
-.o-resume__name,
-.o-resume__headline,
-.o-resume__contact,
-.o-resume__profile,
-.o-resume__education,
-.o-resume__skillset,
-.o-resume__experience {
+.o-resume__profile {
   grid-column-start: 1;
   grid-column-end: 13;
-  padding: 25px 15px;
-  background: rgba(255, 255, 255, 0.25);
-}
-/* .o-resume__headshot {
-  grid-row-start: 1;
-  grid-row-end: 2;
-} */
-.o-resume__profile {
   grid-row-start: 1;
   grid-row-end: 2;
 }
 .o-resume__contact {
+  grid-column-start: 1;
+  grid-column-end: 13;
   grid-row-start: 2;
   grid-row-end: 3;
 }
-/* .o-resume__name {
-  grid-row-start: 2;
-  grid-row-end: 3;
-} */
-.o-resume__headline {
+.o-resume__education {
+  grid-column-start: 1;
+  grid-column-end: 13;
   grid-row-start: 3;
   grid-row-end: 4;
 }
-
-.o-resume__education {
-  grid-row-start: 6;
-  grid-row-end: 7;
-}
 .o-resume__skillset {
-  grid-row-start: 7;
-  grid-row-end: 8;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 4;
+  grid-row-end: 5;
 }
 .o-resume__experience {
-  grid-row-start: 8;
-  grid-row-end: 9;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 5;
+  grid-row-end: 6;
 }
 
 /* ==============================
@@ -122,12 +106,9 @@
 @media (width >= 600px) {
   .o-resume {
     /* as a grid */
-    width: 75%;
+    width: 80%;
     margin-right: auto;
     margin-left: auto;
-  }
-  .o-resume__name {
-    padding: 50px;
   }
 }
 
@@ -135,81 +116,24 @@
 === LARGE : 900-1199px
 =*/
 @media (width >= 900px) {
-  .o-resume {
-    /* as a grid */
-    width: 80%;
-    /* grid-template-rows: repeat(6, auto); */
-  }
-
-  /*== Body ===*/
+  /* ================
+  ==/ BODY
+  ================ */
   .o-resume__body {
     /* as a grid */
-    grid-template-rows: repeat(5, auto);
-  }
-  .o-resume__headshot,
-  .o-resume__name,
-  .o-resume__headline,
-  .o-resume__contact,
-  .o-resume__profile,
-  .o-resume__education,
-  .o-resume__skillset,
-  .o-resume__experience {
-    padding: 25px;
-  }
-  .o-resume__headshot,
-  .o-resume__contact,
-  .o-resume__profile,
-  .o-resume__education,
-  .o-resume__skillset {
-    background: rgba(255, 255, 255, 0.5);
-  }
-  .o-resume__headline,
-  .o-resume__name,
-  .o-resume__experience {
-    background: transparent;
-  }
-  
-  .o-resume__headshot {
-    grid-column-start: 1;
-    grid-column-end: 6;
-    grid-row-start: 1;
-    grid-row-end: 3;
-  }
-  .o-resume__name {
-    padding: 60px;
-  }
-  /* .o-resume__name {
-    grid-column-start: 6;
-    grid-column-end: 13;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    padding-bottom: 0;
-  } */
-  .o-resume__headline {
-    grid-column-start: 6;
-    grid-column-end: 13;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-template-rows: repeat(4, auto);
   }
   .o-resume__profile {
     grid-column-end: 7;
-    grid-row-start: 1;
-    grid-row-end: 2;
   }
   .o-resume__contact {
     grid-column-end: 7;
-    grid-row-start: 2;
-    grid-row-end: 3;
   }
   .o-resume__education {
     grid-column-end: 7;
-    grid-row-start: 3;
-    grid-row-end: 4;
   }
   .o-resume__skillset {
     grid-column-end: 7;
-    grid-row-start: 4;
-    grid-row-end: 5;
   }
   .o-resume__experience {
     grid-column-start: 7;
@@ -225,7 +149,7 @@
 @media (width >= 1201px) {
   .o-resume {
     /* as a grid */
-    max-width: 1200px;
+    max-width: 1040px;
     margin-right: auto;
     margin-left: auto;
   }
