@@ -1,38 +1,33 @@
-.c-bio__name {
+.c-resume-bio__name {
   text-align: center;
   font-size: 28px;
 }
-.c-bio__accent {
+.c-resume-bio__accent {
   position: relative;
   width: 25px;
-  height: 2px;
+  height: 3px;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
 }
-.c-bio__profession {
-  text-align: center;
+.c-resume-bio__profession {
   margin-top: 15px;
-}
-
-/* Move to its own file */
-.c-profession {
   font-size: 18px;
+  text-align: center;
 }
 
-/* Move to its own file */
+/* Move to its own module */
 .c-link--githubio {
   display: block;
   margin-top: 5px;
 }
 
 
-
 /* ==============================
 === SMALL : 300-599px
 =*/
 @media (width >= 300px) {
-  .c-bio__name {
+  .c-resume-bio__name {
     font-size: 32px;
   }
 }
@@ -41,11 +36,11 @@
 === MEDIUM : 600-899px
 =*/
 @media (width >= 600px) {
-  .c-name {
-    font-size: 58px;
+  .c-resume-bio__name {
+    font-size: 40px;
   }
   /* Move to its own file */
-  .c-profession {
+  .c-resume-bio__profession {
     font-size: 20px;
   }
 }
@@ -54,18 +49,13 @@
 === Large : 900-1199px
 =*/
 @media (width >= 900px) {
-  .c-bio__name {
+  .c-resume-bio__name {
     font-size: 64px;
   }
-  .c-bio__accent {
-    width: 24px;
-    height: 3px;
+  .c-resume-bio__accent {
     margin-top: 3px;
-    margin-left: auto;
-    margin-right: auto;
-    background: red;
   }
-  .c-bio__profession {
+  .c-resume-bio__profession {
     text-align: center;
     margin-top: 15px;
   }
