@@ -1,31 +1,42 @@
 import React from 'react';
 
-// IDEA: Add color scheme.
+// TODO: Add color scheme.
 const Themes = {
   Default: {
     className: "t--default",
     themeName: "Default",
-    themeBase: "red"
+    themeBase: "transparent"
   },
-  "Jurassic Park": {
-    className: "t--jurassic-park",
-    themeName: "Jurassic Park",
-    themeBase: "blue"
+  "Default+": {
+    className: "t--default-plus",
+    themeName: "Default+",
+    themeBase: "transparent"
   },
-  "Night Vision": {
-    className: "t--night-vision",
-    themeName: "Night Vision",
-    themeBase: "green"
-  },
-  Operator: {
-    className: "t--operator",
-    themeName: "Operator",
-    themeBase: "black"
-  },
+  // TODO: 
+  // "Jurassic Park": {
+  //   className: "t--jurassic-park",
+  //   themeName: "Jurassic Park",
+  //   themeBase: "black"
+  // },
+  // "Night Vision": {
+  //   className: "t--night-vision",
+  //   themeName: "Night Vision",
+  //   themeBase: "black"
+  // },
+  // Operator: {
+  //   className: "t--operator",
+  //   themeName: "Operator",
+  //   themeBase: "black"
+  // },
+  // "Star Wars": {
+  //   className: "t--star-wars",
+  //   themeName: "Star Wars",
+  //   themeBase: "black"
+  // },
   // Tron: {
   //   className: "t--tron",
   //   themeName: "Tron",
-  //   themeBase: "orange"
+  //   themeBase: "black"
   // }
 };
 
