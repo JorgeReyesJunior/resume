@@ -1,0 +1,10 @@
+.o-layout {
+  /* as a sub-grid */
+  position: relative;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  transform: translateX(0);
+  transition: all 0.3s;
+}
