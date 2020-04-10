@@ -2,7 +2,8 @@ import React from 'react';
 import ProgressRing from './ProgressRing';
 import Skill from './Skill';
 
-const SkillsetsCards = () => {
+const SkillsetsCards = (props) => {
+  console.log("SkillCards: ", props)
   return (
     <section className="o-resume__skillset o-resume__skillset--cards">
       <div className="c-data-panel">

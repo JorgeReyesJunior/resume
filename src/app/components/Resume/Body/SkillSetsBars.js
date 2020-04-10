@@ -1,7 +1,8 @@
 import React from 'react';
 import Skill from './Skill';
 
-const SkillsetsBars = () => {
+const SkillsetsBars = (props) => {
+  console.log("SkillBars: ", props)
   return (
     <section className="o-resume__skillset o-resume__skillset--bars">
       <div className="c-data-panel">
