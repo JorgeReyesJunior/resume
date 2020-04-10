@@ -1,0 +1,26 @@
+.t--default-plus .c-snapshot-panel {
+  box-shadow: inset 0px 0px 0px 4px black;
+  background: white;
+}
+.t--default-plus .c-snapshot-panel:before {
+  width: calc(100% - 36px);
+  height: calc(100% - 0px);
+  top:0;
+  left:18px;
+  content:'';			
+  display: block;
+  position: absolute;
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+ }
+ .t--default-plus .c-snapshot-panel:after {
+  width: calc(100% - 0px);
+  height: calc(100% - 36px);
+  top: 18px;
+  left: 0;
+  display: block;
+  position: absolute;
+  content:'';
+  border-right: 4px solid white;
+  border-left: 4px solid white;
+ }
