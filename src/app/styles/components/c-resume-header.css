@@ -1,0 +1,28 @@
+.c-resume__header {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  padding: 30px;
+}
+
+/* ==============================
+=== SMALL : 300-599px
+=*/
+/* @media (width >= 300px) {} */
+
+/* ==============================
+=== MEDIUM : 600-899px
+=*/
+@media (width >= 600px) {
+  .c-resume__header {
+    padding: 45px;
+  }
+}
+
+/* ==============================
+=== LARGE : 900-1199px
+=*/
+@media (width >= 900px) {
+  .c-resume__header {
+    padding: 60px;
+  }
+}
