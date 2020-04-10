@@ -1,0 +1,13 @@
+.c-exp-card {
+  margin: 20px auto;
+  padding: 10px;
+  /* Move to 'theme' module' */
+  background: #ececec;
+}
+.c-exp-card__employer, 
+.c-exp-card__dates {
+  display: inline-block;
+}
+.c-exp-card__role {
+  margin-top: 10px;
+}
