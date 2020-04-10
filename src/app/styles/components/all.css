@@ -1,8 +1,11 @@
 @import './c-contact.css';
+@import './c-detail.css';
 @import './c-education.css';
+@import './c-exp-card.css';
 @import './c-experience.css';
 @import './c-headline.css';
 @import './c-headshot.css';
+@import './c-label.css';
 @import './c-list.css';
 @import './c-radio.css';
 @import './c-resume-bio.css';
