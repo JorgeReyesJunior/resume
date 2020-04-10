@@ -1,7 +1,7 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 import Body from './Body/Body';
 import Header from './Header/Header';
-import axios from 'axios';
 
 const Resume = () => {
   const [data, setData] = useState();
@@ -17,7 +17,7 @@ const Resume = () => {
     try {
         const response = await axios.get('data/db.json');
 
-        setData(response.data)
+        setData(response.data);
     } catch (error) {
       setIsError(true);
     }
@@ -32,11 +32,12 @@ const Resume = () => {
   **/
   useEffect(() => {
     let useEffectAborted = false;
+    let delay = 250;
     
-    const timeout = setTimeout(() => setDelayedUI(false), 500);
+    const timeout = setTimeout(() => setDelayedUI(false), delay);
 
     if (!useEffectAborted) {
-      fetchData()
+      fetchData();
     };
 
     return (
@@ -51,13 +52,14 @@ const Resume = () => {
   if (delayedUI) {
     return (
       <div className={`o-resume`}>
-        <h3>Preparing resume...</h3>
+        <h3>Loading Resume...</h3>
       </div>
     )
   } else if (!delayedUI && data) {
     return (
       <div className={`o-resume`}>
         <Header
+          resume={data.resume}
           /* if `omitHeadshotAndHeadline` is true, `includeHeadshotOnly` and `includeHeadshotAndHeadline` will not render */
           omitHeadshotAndHeadline={true}
           /* if `omitHeadshotAndHeadline` is true, `includeHeadshotOnly` will not render */
@@ -65,7 +67,7 @@ const Resume = () => {
           /* if `omitHeadshotAndHeadline` or `includeHeadshotOnly` are true, includeHeadshotAndHeadline` will not render */
           includeHeadshotAndHeadline={false}
         />
-        <Body data={data} />
+        <Body resume={data.resume} />
       </div>
     )
   } else if (!delayedUI && isLoading) {
