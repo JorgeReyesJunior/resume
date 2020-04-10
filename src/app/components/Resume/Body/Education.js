@@ -5,7 +5,7 @@ const Education = (props) => {
     <section className="o-resume__education">
       <div className="c-education">
         <div className="c-snapshot-panel">
-          <h2 className="c-snapshot-panel__title">{props.education.title}</h2>
+          <h3 className="c-snapshot-panel__title">{props.education.title}</h3>
           <div className="c-snapshot-panel__content">
             <h5>{props.education.school}</h5>
             <p>{props.education.location}</p>
