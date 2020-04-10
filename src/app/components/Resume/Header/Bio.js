@@ -9,7 +9,7 @@ const Bio = (props) => {
       <div className={`c-resume-bio`}>
         <h1 className={`c-resume-bio__name`}>{fullName}</h1>
         <hr className={`c-resume-bio__accent`}></hr>
-        <h4 className={`c-resume-bio__profession`}>{props.bio.profession}</h4>
+        <h5 className={`c-resume-bio__profession`}>{props.bio.profession}</h5>
       </div>
     </section>
   )
