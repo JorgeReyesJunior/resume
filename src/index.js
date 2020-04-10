@@ -10,9 +10,9 @@ import PropTypes from 'prop-types';
 // import RootReducer from './app/reducers/all';
 // import RootSaga from './app/sagas';
 import App from './app/components/App/App';
-import ThemeWrapper from './app/components/Themes/ThemeWrapper'
+import ThemeWrapper from './app/components/Themes/ThemeWrapper';
 import * as serviceWorker from './serviceWorker';
-import './app/styles/imports.css'
+import './app/styles/imports.css';
 
 // const sagaMiddleware = createSagaMiddleware();
 const store = createStore(() => {});
