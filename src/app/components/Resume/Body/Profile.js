@@ -1,14 +1,13 @@
 import React from 'react';
 
-const Profile = () => {
+const Profile = (props) => {
+
   return (
     <section className="o-resume__profile">
-      <div className="c-data-panel">
-        <h2 className="c-data-panel__title">Profile</h2>
-        <div className="c-data-panel__content">
-          <div className="c-snapshot-panel">
-            <div className="c-snapshot-panel__content">Profile</div>
-          </div>
+      <div className="c-profile">
+        <div className="c-snapshot-panel">
+          <h2 className="c-snapshot-panel__title">{props.profile.title}</h2>
+          <p className="c-snapshot-panel__content">{props.profile.content}</p>
         </div>
       </div>
     </section>
