@@ -1,0 +1,7 @@
+.t--default .o-resume__profile,
+.t--default .o-resume__contact,
+.t--default .o-resume__education,
+.t--default .o-resume__skillset,
+.t--default .o-resume__experience {
+  background: rgba(255, 255, 255, 0.5);
+}
