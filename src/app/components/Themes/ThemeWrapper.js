@@ -1,5 +1,6 @@
 import React, { useState, useContext } from 'react';
 import ThemeContext from './Themes';
+import utilities from '../../utilities/utilities';
 
 const ThemeSelector = (props) => {
   const allThemes = useContext(ThemeContext);
@@ -16,47 +17,45 @@ const ThemeSelector = (props) => {
   }
 
   function applyNewTheme(selectedName) {
-    const selectedTheme = selectedName.replace(/\s+/g, '')
+    const selectedTheme = selectedName.replace(/\s+/g, '');
 
     for(let i = 0; i < Object.keys(allThemes).length; i++) {
       let registeredTheme = Object.entries(allThemes)[i];
 
       if(registeredTheme[1].themeName.replace(/\s+/g, '') === selectedTheme) {
-        return registeredTheme[1]
+        return registeredTheme[1];
       }
     } 
-  }
-
-  function generateNewKey() {
-    const limit = 100;
-    const newKey = Math.floor(Math.random() * Math.floor(limit));
-
-    return newKey;
   }
 
   function handleThemeChange(e) {
     const newTheme = applyNewTheme(e.target.value);
     
-    setActiveTheme(newTheme)
+    setActiveTheme(newTheme);
   }
 
   return (
     <ThemeContext.Provider value={activeTheme}
     >
-      <form className="o-theme-selector">
-        {
-          Object.entries(allThemes).map((theme) => {
-            return (
-              <div className="o-theme-selector__radio" key={`${theme[0]}-${generateNewKey()}`}>
-                <label className="o-theme-selector__label">
-                  <input className="o-theme-selector__input" type="radio" value={theme[0]} checked={activeTheme.themeName === `${theme[0]}`} onChange={handleThemeChange} />
-                  {theme[0]}
-                </label>
-              </div>
-            )
-          })
-        }
-      </form>
+      <div className={`o-theme-wrapper`}>
+        <form className={`c-theme-wrapper`}>
+          <h4 className={`c-theme-wrapper__title`}>Available Themes:</h4>
+          <div className={`o-theme`}>
+            {
+              Object.entries(allThemes).map((theme) => {
+                return (
+                  <div className={`o-theme__option`} key={`${theme[0]}-${utilities.generateNewKey()}`}>
+                    <label className={`o-theme__label c-label c-lable--theme`}>
+                      <input className={`o-theme__radio c-radio c-radio--theme`} type="radio" value={theme[0]} checked={activeTheme.themeName === `${theme[0]}`} onChange={handleThemeChange} />
+                      {theme[0]}
+                    </label>
+                  </div>
+                )
+              })
+            }
+          </div>
+        </form>
+      </div>
       { props.children }
     </ThemeContext.Provider>
   )
