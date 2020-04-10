@@ -32,7 +32,7 @@ const Skillsets = (props) => {
         <section className="o-resume__skillset">
           <div className="c-skillset">
             <div className="c-snapshot-panel">
-              <h2 className="c-snapshot-panel__title">{props.skills.title}</h2>
+              <h3 className="c-snapshot-panel__title">{props.skills.title}</h3>
               <div className="c-snapshot-panel__content">
                 <h5 className={'c-skillset__title--primary'}>Primary Skillset:</h5>
                 <ul className='c-list c-list--primary-skillset'>
