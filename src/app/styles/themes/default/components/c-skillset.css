@@ -1,0 +1,20 @@
+.t--default .c-skillset {
+  margin: 15px;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.5);
+}
+.t--default .c-skillset__title--primary {
+  margin-top: 20px;
+}
+
+/* effects */
+.t--default .c-skillset:hover .c-snapshot-panel__title::after {
+  content: "";
+  position: absolute;
+  top: 110%;
+  height: 3px;
+  width: 100%;
+  left: 0;
+  background-color: black;
+  transition: 100ms;
+}

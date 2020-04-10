@@ -1,0 +1,17 @@
+.t--default .c-contact {
+  margin: 15px;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* effects */
+.t--default .c-contact:hover .c-snapshot-panel__title::after {
+  content: "";
+  position: absolute;
+  top: 110%;
+  height: 3px;
+  width: 100%;
+  left: 0;
+  background-color: black;
+  transition: 100ms;
+}
