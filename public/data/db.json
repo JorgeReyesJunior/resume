@@ -15,11 +15,12 @@
     "contact": {
       "title": "contact",
       "email": "reyes.junior.27@gmail.com",
-      "linkedin": "https://www.linkedin.com/in/jareyesjr/"
+      "linkedin": "https://www.linkedin.com/in/jareyesjr/",
+      "github": "https://jorgereyesjunior.github.io/"
     },
     "projects": {
       "title": "projects",
-      "github.io": "https://jorgereyesjunior.github.io"
+      "github": "https://jorgereyesjunior.github.io"
     },
     "education": {
       "title": "education",
