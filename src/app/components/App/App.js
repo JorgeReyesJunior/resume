@@ -1,4 +1,4 @@
-import React, {useContext} from 'react';
+import React, { useContext } from 'react';
 import AppBackground from './AppBackground';
 import AppLayout from './AppLayout';
 import ThemeContext from '../Themes/Themes';
