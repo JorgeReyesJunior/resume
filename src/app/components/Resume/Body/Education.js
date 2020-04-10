@@ -1,13 +1,15 @@
 import React from 'react';
 
-const Education = () => {
+const Education = (props) => {
   return (
     <section className="o-resume__education">
-      <div className="c-data-panel">
-        <h2 className="c-data-panel__title">Education</h2>
-        <div className="c-data-panel__content">
-          <div className="c-snapshot-panel">
-            <div className="c-snapshot-panel__content">Education</div>
+      <div className="c-education">
+        <div className="c-snapshot-panel">
+          <h2 className="c-snapshot-panel__title">{props.education.title}</h2>
+          <div className="c-snapshot-panel__content">
+            <h5>{props.education.school}</h5>
+            <p>{props.education.location}</p>
+            <p>{props.education.degree}, {props.education.graduationYear}</p>
           </div>
         </div>
       </div>
