@@ -1,10 +1,12 @@
 @import './c-contact.css';
-@import './c-bio.css';
-@import './c-data-panel.css';
 @import './c-education.css';
 @import './c-experience.css';
 @import './c-headline.css';
 @import './c-headshot.css';
-@import './c-profile.css';
+@import './c-list.css';
+@import './c-radio.css';
+@import './c-resume-bio.css';
+@import './c-resume-header.css';
 @import './c-skillset.css';
 @import './c-snapshot-panel.css';
+@import './c-theme-wrapper.css';
