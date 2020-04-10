@@ -1,5 +1,5 @@
-import React, {useContext} from 'react';
-import MainScreen from '../Layout/MainScreen';
+import React, { useContext } from 'react';
+import Layout from '../Layout/Layout';
 import ThemeContext from '../Themes/Themes';
 
 const AppLayout = () => {
@@ -7,9 +7,7 @@ const AppLayout = () => {
   
   return (
     <div className={`${activeTheme.className} o-app-layout`}>
-      <div className="o-app-layout__mainscreen">
-        <MainScreen />
-      </div>
+      <Layout />
     </div>
   )
 };
