@@ -1,0 +1,25 @@
+.c-theme-wrapper {
+  padding: 15px;
+}
+.c-theme__option {
+  padding: 5px;
+}
+
+/* ==============================
+=== SMALL : 300-599px
+=*/
+/* @media (width >= 300px) {} */
+
+/* ==============================
+=== MEDIUM : 600-899px
+=*/
+/* @media (width >= 600px) {} */
+
+/* ==============================
+=== LARGE : 900-1199px
+=*/
+@media (width >= 900px) {
+  .c-theme-wrapper {
+    padding: 25px;
+  }
+}
