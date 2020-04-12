@@ -1,0 +1,30 @@
+.t--operator .c-snapshot-panel {
+  color: white;
+}
+.t--operator .c-snapshot-panel__title {
+  font-family: monospace;
+  font-size: 18px;
+}
+.t--operator .c-snapshot-panel__title::before {
+  content: "";
+  position: absolute;
+  top: 110%;
+  height: 3px;
+  width: 100%;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+.t--operator .c-snapshot-panel__title::after {
+  content: "";
+  position: absolute;
+  top: 110%;
+  height: 3px;
+  width: 40%;
+  left: 30%;
+  background-color: white;
+}
+.t--operator .c-snapshot-panel__content {
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 24px;
+}
