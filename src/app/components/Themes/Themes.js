@@ -7,11 +7,11 @@ const Themes = {
     themeName: "Default",
     themeBase: "transparent"
   },
-  "Default+": {
-    className: "t--default-plus",
-    themeName: "Default+",
-    themeBase: "transparent"
-  },
+  // "Default+": {
+  //   className: "t--default-plus",
+  //   themeName: "Default+",
+  //   themeBase: "transparent"
+  // },
   // TODO: 
   // "Jurassic Park": {
   //   className: "t--jurassic-park",
@@ -23,11 +23,11 @@ const Themes = {
   //   themeName: "Night Vision",
   //   themeBase: "black"
   // },
-  // Operator: {
-  //   className: "t--operator",
-  //   themeName: "Operator",
-  //   themeBase: "black"
-  // },
+  Operator: {
+    className: "t--operator",
+    themeName: "Operator",
+    themeBase: "black"
+  },
   // "Star Wars": {
   //   className: "t--star-wars",
   //   themeName: "Star Wars",
