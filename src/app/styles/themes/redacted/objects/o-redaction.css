@@ -1,8 +1,8 @@
-.t--007 .o-redaction {
+.t--redacted .o-redaction {
   position: relative;
   white-space: pre;
 }
-.t--007 .o-redaction:after {
+.t--redacted .o-redaction:after {
   background: black;
   border-radius: 2px;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);

@@ -1,0 +1,23 @@
+.t--redacted .o-resume__profile,
+.t--redacted .o-resume__contact,
+.t--redacted .o-resume__education,
+.t--redacted .o-resume__skillset,
+.t--redacted .o-resume__experience {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* Move to new module */
+/* .t--redacted a {
+  font-family: monospace;
+}
+.t--redacted h1,
+.t--redacted h2,
+.t--redacted h3,
+.t--redacted h4,
+.t--redacted h5,
+.t--redacted h6 {
+  font-family: monospace;
+}
+.t--redacted p {
+  font-family: monospace;
+} */

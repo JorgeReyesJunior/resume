@@ -1,4 +1,4 @@
-.t--007 .c-snapshot-panel__title::before {
+.t--redacted .c-snapshot-panel__title::before {
   content: "";
   position: absolute;
   top: 110%;
@@ -7,7 +7,7 @@
   left: 0;
   background-color: rgba(0, 0, 0, 0.25);
 }
-.t--007 .c-snapshot-panel__title::after {
+.t--redacted .c-snapshot-panel__title::after {
   content: "";
   position: absolute;
   top: 110%;
@@ -16,7 +16,7 @@
   left: 30%;
   background-color: black;
 }
-.t--007 .c-snapshot-panel__content {
+.t--redacted .c-snapshot-panel__content {
   font-size: 16px;
   line-height: 24px;
 }
