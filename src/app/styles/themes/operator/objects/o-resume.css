@@ -1,0 +1,23 @@
+.t--operator .o-resume__profile,
+.t--operator .o-resume__contact,
+.t--operator .o-resume__education,
+.t--operator .o-resume__skillset,
+.t--operator .o-resume__experience {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Move to new module */
+.t--operator a {
+  font-family: monospace;
+}
+.t--operator h1,
+.t--operator h2,
+.t--operator h3,
+.t--operator h4,
+.t--operator h5,
+.t--operator h6 {
+  font-family: monospace;
+}
+.t--operator p {
+  font-family: monospace;
+}
