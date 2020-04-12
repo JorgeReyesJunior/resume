@@ -9,7 +9,7 @@ const Bio = (props) => {
 
   const redactedFullName = `${props['bio--redacted'].first} ${props['bio--redacted'].last} ${props['bio--redacted'].suffix}`;
 
-  if (activeTheme.themeName === 'Operator') {
+  if (activeTheme.themeName === '007' || activeTheme.themeName === 'Operator') {
     return (
       <section className={`o-resume__bio`}>
         <div className={`c-resume-bio`}>

@@ -5,7 +5,7 @@ import utilities from '../../../utilities/utilities';
 const Contact = (props) => {
   const activeTheme = useContext(ThemeContext);
 
-  if (activeTheme.themeName === 'Operator') {
+  if (activeTheme.themeName === '007' || activeTheme.themeName === 'Operator') {
     return (
       <section className="o-resume__contact">
         <div className={'c-contact'}>

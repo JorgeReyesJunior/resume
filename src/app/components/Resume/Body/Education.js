@@ -5,7 +5,7 @@ import utilities from '../../../utilities/utilities';
 const Education = (props) => {
   const activeTheme = useContext(ThemeContext);
 
-  if (activeTheme.themeName === 'Operator') {
+  if (activeTheme.themeName === '007' || activeTheme.themeName === 'Operator') {
     return (
       <section className="o-resume__education">
         <div className="c-education">
