@@ -12,7 +12,6 @@ const Themes = {
   //   themeName: "Default+",
   //   themeBase: "transparent"
   // },
-  // TODO: 
   // "Jurassic Park": {
   //   className: "t--jurassic-park",
   //   themeName: "Jurassic Park",
@@ -23,6 +22,11 @@ const Themes = {
   //   themeName: "Night Vision",
   //   themeBase: "black"
   // },
+  '007': {
+    className: "t--007",
+    themeName: "007",
+    themeBase: "black"
+  },
   Operator: {
     className: "t--operator",
     themeName: "Operator",
