@@ -1,0 +1,168 @@
+{
+  "resume": {
+    "bio": {
+      "title": "bio",
+      "first": "Jorge",
+      "last": "Reyes",
+      "suffix": "Jr.",
+      "profession": "Software Engineer",
+      "auxiliary": ["Web Developer", "Software Engineer"]
+    },
+    "bio--redacted": {
+      "title": "bio",
+      "first": "[REDACTED]",
+      "last": "[REDACTED]",
+      "suffix": "Jr.",
+      "profession": "[REDACTED] Engineer",
+      "auxiliary": ["[REDACTED] [REDACTED]", "[REDACTED] [REDACTED]"]
+    },
+    "profile": {
+      "title": "profile",
+      "content": "Stemming from a background in biological sciences, I am a detail-oriented software engineer with experience developing high-performing software applications and reliably delivering high-quality web-based solutions to effectively support teams and organizations achieve their digital strategies."
+    },
+    "profile--redacted": {
+      "title": "profile",
+      "content": "[REDACTED] [REDACTED] [REDACTED] background [REDACTED] biological sciences, [REDACTED] [REDACTED] [REDACTED] [REDACTED][REDACTED] software engineer with experience developing [REDACTED] [REDACTED] software applications and [REDACTED] [REDACTED] high-quality [REDACTED] [REDACTED] solutions to effectively support teams and organizations [REDACTED] [REDACTED] [REDACTED] [REDACTED]."
+    },
+    "contact": {
+      "title": "contact",
+      "email": "reyes.junior.27@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/jareyesjr/",
+      "github": "https://jorgereyesjunior.github.io/"
+    },
+    "contact--redacted": {
+      "title": "contact",
+      "email": "[REDACTED]",
+      "linkedin": "[REDACTED]",
+      "github": "https://jorgereyesjunior.github.io/"
+    },
+    "projects": {
+      "title": "projects",
+      "github": "https://jorgereyesjunior.github.io"
+    },
+    "education": {
+      "title": "education",
+      "school": "University of California, Davis",
+      "location": "Davis, CA",
+      "degree": "B.A. in Exercise Biology",
+      "graduationYear": "2013"
+    },
+    "education--redacted": {
+      "title": "education",
+      "school": "[University of California, Davis",
+      "location": "[REDACTED]",
+      "degree": "[REDACTED] in [REDACTED] [REDACTED]",
+      "graduationYear": "2013"
+    },
+    "skills": {
+      "title": "skills",
+      "primary": {
+        "Version Control": ["Git"],
+        "APIs": ["REST", "graphQL"],
+        "Markup": ["HTML5"],
+        "Styling": ["CSS3", "Less", "Sass"],
+        "Scripting": ["CoffeeScript", "JavaScript", "Node.js"],
+        "Frameworks": ["Express.js"],
+        "Libraries": ["jQuery", "React", "Redux", "Redux-Saga"],
+        "Tools": ["Babel", "PostCSS", "Webpack"]
+      },
+      "secondary": ["Backbone.js", "Docker/Containerization", "Mercurial (VCS)", "PHP", "Python", "Require.js", "Underscore.js", "Wordpress", "XHTML"]
+    },
+    "skills--redacted": {
+      "title": "skills",
+      "primary": {
+        "Version Control": ["Git"],
+        "APIs": ["[REDACTED]", "graphQL"],
+        "Markup": ["HTML5"],
+        "Styling": ["CSS3", "Less", "Sass"],
+        "Scripting": ["[REDACTED]", "JavaScript", "Node.js"],
+        "Frameworks": ["Express.js"],
+        "Libraries": ["[REDACTED]", "React", "Redux", "Redux-Saga"],
+        "Tools": ["[REDACTED]", "PostCSS", "Webpack"]
+      },
+      "secondary": ["[REDACTED]", "Docker/Containerization", "[REDACTED]", "[REDACTED]", "Python", "[REDACTED]", "[REDACTED]", "[REDACTED]", "[REDACTED]"]
+    },
+    "experience": {
+      "title": "experience",
+      "employmentHistory": [
+        {
+          "organization": "TouchTo",
+          "position": "Software Engineer",
+          "location": "Austin, TX",
+          "startDate": "04.2019",
+          "endDate": "03.27.2020",
+          "role": "Served a large online travel agency as an onsite consultant developer, working closely with product and engineering teams to",
+          "achievements": ["Provide privileged business teams access to internal analytics and business-critical data for strategic analysis.", "Develop 3+ enterprise software solutions that integrate and operate within the client's internal platform ecosystem.", "Present aggregated competitive market data assembled from 3+ different subsidiary brands across 5+ different data endpoints."]
+        },
+        {
+          "organization": "Golden Frog, GmbH.",
+          "position": "Software Engineer",
+          "location": "Austin, TX",
+          "startDate": "06.2017",
+          "endDate": "02.2019",
+          "role": "Served as an onsite developer for an internet privacy and security solutions provider, working closely with design, engineering, marketing, and product teams to",
+          "achievements": ["Develop and improve on legacy web application interfaces for a multiple product lines and services across 3+ different brands.", "Promote and assist in the development of an internal pattern library to unify design consistency across design and engineering teams to create more efficient development cycles.", "Maintain and refactor the architecture of 2+ legacy websites while regularly delivering new user-facing features."]
+        },
+        {
+          "organization": "Harris Media, LLC.",
+          "position": "Jr. Front-End Developer",
+          "location": "Austin, TX",
+          "startDate": "06.2016",
+          "endDate": "12.2016",
+          "role": "Served an online communications firm and digital marketing agency, coordinating design, business, and marketing teams by",
+          "achievements": ["Provide technical advice on bugs and enhancements for marketing team.", "Resolve internal and external defects, lowering the engineering team's overall tech debt footprint.", "Develop new user-facing features across 4+ different web applications."]
+        },
+        {
+          "organization": "Clarity Ventures, Inc.",
+          "position": "Jr Front-end developer",
+          "location": "Austin, TX",
+          "startDate": "03.2016",
+          "endDate": "05.2016",
+          "role": "Served a web development consulting services company, coordinated with cross-functional, in-house development teams to",
+          "achievements": ["Participate in daily scrums to gathering user requirements, plan projects, design prototypes, and plan project lifecycles.", "Support and debug internal applications.", "Develop more than 3+ application interfaces."]
+        }
+      ]
+    },
+    "experience--redacted": {
+      "title": "experience",
+      "employmentHistory": [
+        {
+          "organization": "TouchTo",
+          "position": "[REDACTED] [REDACTED]",
+          "location": "[REDACTED], [REDACTED]",
+          "startDate": "[REDACTED]2019",
+          "endDate": "03.27.2020",
+          "role": "[REDACTED] [REDACTED] large online travel agency [REDACTED] [REDACTED] [REDACTED] consultant developer, [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED]",
+          "achievements": ["[REDACTED] [REDACTED] business teams access to internal analytics and business-critical data [REDACTED] [REDACTED] [REDACTED].", "[REDACTED] 3+ [REDACTED] [REDACTED] solutions that integrate [REDACTED] [REDACTED] within [REDACTED] client's internal platform [REDACTED].", "Present [REDACTED] competitive market data [REDACTED] from 3+ [REDACTED] subsidiary brands across 5+ [REDACTED] [REDACTED] endpoints."]
+        },
+        {
+          "organization": "Golden Frog, GmbH.",
+          "position": "[REDACTED] [REDACTED]",
+          "location": "[REDACTED], [REDACTED]",
+          "startDate": "[REDACTED]2017",
+          "endDate": "[REDACTED]2019",
+          "role": "[REDACTED] [REDACTED] [REDACTED] onsite developer for [REDACTED] internet privacy and security solutions provider, [REDACTED] [REDACTED] [REDACTED] [REDACTED], [REDACTED], [REDACTED], [REDACTED] [REDACTED] [REDACTED] [REDACTED]",
+          "achievements": ["Develop and improve [REDACTED] legacy web application interfaces for a [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] 3+ [REDACTED] brands.", "[REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] development of [REDACTED] [REDACTED] pattern library [REDACTED] unify design consistency [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] to create more efficient development cycles.", "[REDACTED] [REDACTED] refactor the architecture [REDACTED] 2+ legacy websites [REDACTED] [REDACTED] delivering new user-facing features."]
+        },
+        {
+          "organization": "Harris Media, LLC.",
+          "position": "[REDACTED] [REDACTED]-[REDACTED] [REDACTED]",
+          "location": "[REDACTED], [REDACTED]",
+          "startDate": "[REDACTED]2016",
+          "endDate": "[REDACTED]2016",
+          "role": "[REDACTED] [REDACTED] online communications firm and digital marketing agency, [REDACTED] [REDACTED], [REDACTED], [REDACTED] [REDACTED] [REDACTED] [REDACTED]",
+          "achievements": ["[REDACTED] technical advice on bugs and enhancements for marketing team.", "Resolve [REDACTED] [REDACTED] [REDACTED] defects, lowering the [REDACTED] [REDACTED] overall tech debt footprint.", "Develop [REDACTED] [REDACTED]-[REDACTED] features [REDACTED] 4+ [REDACTED] web applications."]
+        },
+        {
+          "organization": "Clarity Ventures, Inc.",
+          "position": "[REDACTED] [REDACTED]-[REDACTED] [REDACTED]",
+          "location": "[REDACTED], [REDACTED]",
+          "startDate": "[REDACTED]2016",
+          "endDate": "[REDACTED]2016",
+          "role": "[REDACTED] [REDACTED] web development consulting services company, [REDACTED] [REDACTED] cross-functional, in-house development [REDACTED] [REDACTED]",
+          "achievements": ["[REDACTED] [REDACTED] daily scrums to gathering user requirements, [REDACTED] [REDACTED], [REDACTED] [REDACTED], [REDACTED] [REDACTED] [REDACTED] [REDACTED].", "[REDACTED] [REDACTED] debug internal applications.", "[REDACTED] [REDACTED] [REDACTED] 3+ application interfaces."]
+        }
+      ]
+    }
+  }
+}
