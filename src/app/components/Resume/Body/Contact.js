@@ -10,7 +10,7 @@ const Contact = (props) => {
       <section className="o-resume__contact">
         <div className={'c-contact'}>
           <div className="c-snapshot-panel">
-            <h3 className="c-snapshot-panel__title">{utilities.renderRedactedContent(props['contact--redacted'].title)}}</h3>
+            <h3 className="c-snapshot-panel__title">{utilities.renderRedactedContent(props['contact--redacted'].title)}</h3>
             <div className="c-snapshot-panel__content">
               <h5>Email:</h5>{utilities.renderRedactedContent(props['contact--redacted'].email)}
               <br></br>
