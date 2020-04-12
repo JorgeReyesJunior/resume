@@ -22,9 +22,9 @@ const Themes = {
   //   themeName: "Night Vision",
   //   themeBase: "black"
   // },
-  '007': {
-    className: "t--007",
-    themeName: "007",
+  Redacted: {
+    className: "t--redacted",
+    themeName: "Redacted",
     themeBase: "black"
   },
   Operator: {
