@@ -1,0 +1,23 @@
+.t--007 .o-resume__profile,
+.t--007 .o-resume__contact,
+.t--007 .o-resume__education,
+.t--007 .o-resume__skillset,
+.t--007 .o-resume__experience {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* Move to new module */
+/* .t--007 a {
+  font-family: monospace;
+}
+.t--007 h1,
+.t--007 h2,
+.t--007 h3,
+.t--007 h4,
+.t--007 h5,
+.t--007 h6 {
+  font-family: monospace;
+}
+.t--007 p {
+  font-family: monospace;
+} */
