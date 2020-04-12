@@ -1,6 +1,32 @@
 .t--operator .c-snapshot-panel {
   color: white;
 }
+/* .t--operator .c-snapshot-panel {
+  box-shadow: inset 0px 0px 0px 4px white;
+}
+.t--operator .c-snapshot-panel:before {
+  width: calc(100% - 36px);
+  height: calc(100% - 0px);
+  top:0;
+  left:18px;
+  content:'';			
+  display: block;
+  position: absolute;
+  border-top: 4px solid rgba(0, 0, 0, 0.9);
+  border-bottom: 4px solid rgba(0, 0, 0, 0.9);
+ }
+ .t--operator .c-snapshot-panel:after {
+  width: calc(100% - 0px);
+  height: calc(100% - 36px);
+  top: 18px;
+  left: 0;
+  display: block;
+  position: absolute;
+  content:'';
+  border-right: 4px solid rgba(0, 0, 0, 0.9);
+  border-left: 4px solid rgba(0, 0, 0, 0.9);
+ } */
+
 .t--operator .c-snapshot-panel__title {
   font-family: monospace;
   font-size: 18px;
