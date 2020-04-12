@@ -30,7 +30,7 @@ const Skillsets = (props) => {
   //           <SkillsetsBars primarySkillset={props.skills.primary} secondarySkillset={props.skills.secondary} />
   //         )}
 
-  if (activeTheme.themeName === '007' || activeTheme.themeName === 'Operator') {
+  if (activeTheme.themeName === 'Redacted' || activeTheme.themeName === 'Operator') {
     return (
       <Fragment>
           <section className="o-resume__skillset">

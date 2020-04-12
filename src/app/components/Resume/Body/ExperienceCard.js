@@ -5,7 +5,7 @@ import utilities from '../../../utilities/utilities';
 const ExperienceCard = (props) => {
   const activeTheme = useContext(ThemeContext);
 
-  if (activeTheme.themeName === '007' || activeTheme.themeName === 'Operator') {
+  if (activeTheme.themeName === 'Redacted' || activeTheme.themeName === 'Operator') {
     return (
       <section className={'c-exp-card'}>
         <h4 className={'c-exp-card__position'}>{utilities.renderRedactedContent(props.experience.position)}</h4>

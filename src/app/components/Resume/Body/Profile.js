@@ -5,7 +5,7 @@ import utilities from '../../../utilities/utilities';
 const Profile = (props) => {
   const activeTheme = useContext(ThemeContext);
 
-  if (activeTheme.themeName === '007' || activeTheme.themeName === 'Operator') {
+  if (activeTheme.themeName === 'Redacted' || activeTheme.themeName === 'Operator') {
     return (
       <section className="o-resume__profile">
         <div className="c-profile">

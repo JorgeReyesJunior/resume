@@ -6,7 +6,7 @@ import utilities from '../../../utilities/utilities';
 const Experience = (props) => {
   const activeTheme = useContext(ThemeContext);
 
-  if (activeTheme.themeName === '007' || activeTheme.themeName === 'Operator') {
+  if (activeTheme.themeName === 'Redacted' || activeTheme.themeName === 'Operator') {
     return (
       <section className="o-resume__experience">
         <div className="c-experience">
