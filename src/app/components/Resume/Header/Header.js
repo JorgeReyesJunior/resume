@@ -8,7 +8,7 @@ const Header = (props) => {
     return (
       <header className={`o-resume__header`}>
         <div className={`c-resume__header`}>
-          <Bio bio={props.resume.bio}/>
+          <Bio bio={props.resume.bio} bio--redacted={props.resume['bio--redacted']}/>
         </div>
       </header>
     )
