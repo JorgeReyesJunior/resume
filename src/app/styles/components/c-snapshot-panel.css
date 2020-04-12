@@ -15,24 +15,6 @@
   display: inline-block;
   text-transform: capitalize;
 }
-.t--default .c-snapshot-panel__title::before {
-  content: "";
-  position: absolute;
-  top: 110%;
-  height: 3px;
-  width: 100%;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.25);
-}
-.t--default .c-snapshot-panel__title::after {
-  content: "";
-  position: absolute;
-  top: 110%;
-  height: 3px;
-  width: 40%;
-  left: 30%;
-  background-color: black;
-}
 .c-snapshot-panel__content {
   position: relative;
   margin: 20px auto 15px;
