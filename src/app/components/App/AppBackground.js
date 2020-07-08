@@ -1,6 +1,10 @@
 import React, { useContext } from 'react';
 import ThemeContext from '../Themes/Themes';
 
+// NOTE: For development only
+// import Image from '../../../assets/media/images/white-triangles-background.png';
+// import Video from '../../../assets/media/videos/white-triangles-background.mp4';
+
 const AppBackground = () => {
   const activeTheme = useContext(ThemeContext);
 
