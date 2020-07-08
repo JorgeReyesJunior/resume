@@ -18,11 +18,11 @@
     },
     "profile": {
       "title": "profile",
-      "content": "Stemming from a background in biological sciences, I am a detail-oriented software engineer with experience developing high-performing software applications and reliably delivering high-quality web-based solutions to effectively support teams and organizations achieve their digital strategies."
+      "content": "Stemming from a background in biological sciences, I am a detail-oriented software engineer with experience developing high-performing applications and web-based solutions. Seeking a position as a front-end developer in an environment that encourages innovative thinking and career development."
     },
     "profile--redacted": {
       "title": "profile",
-      "content": "[REDACTED] [REDACTED] [REDACTED] background [REDACTED] biological sciences, [REDACTED] [REDACTED] [REDACTED] [REDACTED][REDACTED] software engineer with experience developing [REDACTED] [REDACTED] software applications and [REDACTED] [REDACTED] high-quality [REDACTED] [REDACTED] solutions to effectively support teams and organizations [REDACTED] [REDACTED] [REDACTED] [REDACTED]."
+      "content": "[REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED], [REDACTED] [REDACTED] [REDACTED] detail-oriented [REDACTED] engineer [REDACTED] experience developing [REDACTED]-[REDACTED] applications [REDACTED] web-based solutions. Seeking a position [REDACTED] [REDACTED] front-end developer [REDACTED] [REDACTED] [REDACTED] that encourages innovative thinking [REDACTED] career development."
     },
     "contact": {
       "title": "contact",
@@ -57,7 +57,7 @@
     "skills": {
       "title": "skills",
       "primary": {
-        "Version Control": ["Git"],
+        "Version Control": ["Git", "Mercurial"],
         "APIs": ["REST", "graphQL"],
         "Markup": ["HTML5"],
         "Styling": ["CSS3", "Less", "Sass"],
@@ -66,12 +66,12 @@
         "Libraries": ["jQuery", "React", "Redux", "Redux-Saga"],
         "Tools": ["Babel", "PostCSS", "Webpack"]
       },
-      "secondary": ["Backbone.js", "Docker/Containerization", "Mercurial (VCS)", "PHP", "Python", "Require.js", "Underscore.js", "Wordpress", "XHTML"]
+      "secondary": ["Backbone.js", "Docker/Containerization", "PHP", "Python", "Require.js", "Underscore.js", "Wordpress", "XHTML"]
     },
     "skills--redacted": {
       "title": "skills",
       "primary": {
-        "Version Control": ["Git"],
+        "Version Control": ["Git", "[REDACTED]"],
         "APIs": ["[REDACTED]", "graphQL"],
         "Markup": ["HTML5"],
         "Styling": ["CSS3", "Less", "Sass"],
@@ -80,7 +80,7 @@
         "Libraries": ["[REDACTED]", "React", "Redux", "Redux-Saga"],
         "Tools": ["[REDACTED]", "PostCSS", "Webpack"]
       },
-      "secondary": ["[REDACTED]", "Docker/Containerization", "[REDACTED]", "[REDACTED]", "Python", "[REDACTED]", "[REDACTED]", "[REDACTED]", "[REDACTED]"]
+      "secondary": ["[REDACTED]", "Docker/Containerization", "[REDACTED]", "Python", "[REDACTED]", "[REDACTED]", "[REDACTED]", "[REDACTED]"]
     },
     "experience": {
       "title": "experience",
@@ -91,8 +91,8 @@
           "location": "Austin, TX",
           "startDate": "04.2019",
           "endDate": "03.27.2020",
-          "role": "Served a large online travel agency as an onsite consultant developer, working closely with product and engineering teams to",
-          "achievements": ["Provide privileged business teams access to internal analytics and business-critical data for strategic analysis.", "Develop 3+ enterprise software solutions that integrate and operate within the client's internal platform ecosystem.", "Present aggregated competitive market data assembled from 3+ different subsidiary brands across 5+ different data endpoints."]
+          "role": "Served as an onsite consultant developer for an online travel agency conglomerate, working closely with product and engineering teams to",
+          "achievements": ["Develop a dynamic chrome extension capable of serving as a software adapter within the client’s data platform tool, allowing authorized marketing/product teams to browse a client’s subsidiary site to explore and access supplemental resources that facilitate their day-to-day operations.", "Develop a suite of applications capable of providing context-aware UI, allowing authorized business intelligence teams to browse/interact with the client’s subsidiary sites to access additional internal analytics used to assess a brand’s performance."]
         },
         {
           "organization": "Golden Frog, GmbH.",
@@ -101,7 +101,7 @@
           "startDate": "06.2017",
           "endDate": "02.2019",
           "role": "Served as an onsite developer for an internet privacy and security solutions provider, working closely with design, engineering, marketing, and product teams to",
-          "achievements": ["Develop and improve on legacy web application interfaces for a multiple product lines and services across 3+ different brands.", "Promote and assist in the development of an internal pattern library to unify design consistency across design and engineering teams to create more efficient development cycles.", "Maintain and refactor the architecture of 2+ legacy websites while regularly delivering new user-facing features."]
+          "achievements": ["Promote and assist in the development of an internal pattern library to systematize and unify design patterns across the company’s subsidiary brands, leading to more efficient development cycles and improved collaboration between creative and engineering teams.", "Develop new UI elements and user-facing features for the company’s subsidiary sites and retrofit architecture/applications to modern development practices, supporting a more flexible and maintainable codebase."]
         },
         {
           "organization": "Harris Media, LLC.",
@@ -109,8 +109,8 @@
           "location": "Austin, TX",
           "startDate": "06.2016",
           "endDate": "12.2016",
-          "role": "Served an online communications firm and digital marketing agency, coordinating design, business, and marketing teams by",
-          "achievements": ["Provide technical advice on bugs and enhancements for marketing team.", "Resolve internal and external defects, lowering the engineering team's overall tech debt footprint.", "Develop new user-facing features across 4+ different web applications."]
+          "role": "Developed for an online communications firm and digital marketing agency, collaborating with design, business, and marketing teams to",
+          "achievements": ["Develop new UI features for various custom applications while providing technical advice for the marketing team, resolving existing internal/external defects while reducing the engineering team's overall tech debt footprint."]
         },
         {
           "organization": "Clarity Ventures, Inc.",
@@ -118,8 +118,8 @@
           "location": "Austin, TX",
           "startDate": "03.2016",
           "endDate": "05.2016",
-          "role": "Served a web development consulting services company, coordinated with cross-functional, in-house development teams to",
-          "achievements": ["Participate in daily scrums to gathering user requirements, plan projects, design prototypes, and plan project lifecycles.", "Support and debug internal applications.", "Develop more than 3+ application interfaces."]
+          "role": "Developed for a consulting services agency, coordinating with in-house development teams to",
+          "achievements": ["Participate in daily scrums to gathering user requirements, plan projects, design prototypes, and plan project lifecycles, while debugging and developing multiple existing internal applications."]
         }
       ]
     },
@@ -132,8 +132,8 @@
           "location": "[REDACTED], [REDACTED]",
           "startDate": "[REDACTED].2019",
           "endDate": "[REDACTED].2020",
-          "role": "[REDACTED] [REDACTED] large online travel agency [REDACTED] [REDACTED] [REDACTED] consultant developer, [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED]",
-          "achievements": ["[REDACTED] [REDACTED] business teams access to internal analytics and business-critical data [REDACTED] [REDACTED] [REDACTED].", "[REDACTED] 3+ [REDACTED] [REDACTED] solutions that integrate [REDACTED] [REDACTED] within [REDACTED] client's internal platform [REDACTED].", "Present [REDACTED] competitive market data [REDACTED] from 3+ [REDACTED] subsidiary brands across 5+ [REDACTED] [REDACTED] endpoints."]
+          "role": "[REDACTED] [REDACTED] [REDACTED] onsite consultant developer [REDACTED] [REDACTED] [REDACTED] travel agency conglomerate, [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED]",
+          "achievements": ["Develop [REDACTED] dynamic chrome extension [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] software adapter within [REDACTED] [REDACTED] data platform tool, allowing authorized [REDACTED]/[REDACTED] teams [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] access to resources that facilitate [REDACTED] day-to-day operations.", "Develop [REDACTED] [REDACTED] [REDACTED] applications [REDACTED] [REDACTED] providing context-aware UI, allowing authorized [REDACTED] [REDACTED] teams [REDACTED] [REDACTED]/[REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] to access [REDACTED] internal analytics [REDACTED] to assess a brand’s performance."]
         },
         {
           "organization": "Golden Frog, GmbH.",
@@ -141,8 +141,8 @@
           "location": "[REDACTED], [REDACTED]",
           "startDate": "[REDACTED].2017",
           "endDate": "[REDACTED].2019",
-          "role": "[REDACTED] [REDACTED] [REDACTED] onsite developer for [REDACTED] internet privacy and security solutions provider, [REDACTED] [REDACTED] [REDACTED] [REDACTED], [REDACTED], [REDACTED], [REDACTED] [REDACTED] [REDACTED] [REDACTED]",
-          "achievements": ["Develop and improve [REDACTED] legacy web application interfaces for a [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] 3+ [REDACTED] brands.", "[REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] development of [REDACTED] [REDACTED] pattern library [REDACTED] unify design consistency [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] to create more efficient development cycles.", "[REDACTED] [REDACTED] refactor the architecture [REDACTED] 2+ legacy websites [REDACTED] [REDACTED] delivering new user-facing features."]
+          "role": "[REDACTED] [REDACTED] [REDACTED] onsite developer for [REDACTED] internet privacy [REDACTED] security solutions provider, [REDACTED] [REDACTED] [REDACTED] [REDACTED], [REDACTED], [REDACTED], [REDACTED] [REDACTED] [REDACTED] [REDACTED]",
+          "achievements": ["Promote [REDACTED] assist in the development of [REDACTED] [REDACTED] pattern library [REDACTED] [REDACTED] [REDACTED] unify design patterns [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED], [REDACTED] [REDACTED] more efficient development cycles [REDACTED] improved collaboration between [REDACTED] [REDACTED] [REDACTED] teams.", "Develop new UI elements [REDACTED] user-facing features [REDACTED] [REDACTED] [REDACTED] [REDACTED] [REDACTED] and retrofit architecture/applications to modern development practices, [REDACTED] [REDACTED] more flexible [REDACTED] maintainable codebase."]
         },
         {
           "organization": "Harris Media, LLC.",
@@ -150,8 +150,8 @@
           "location": "[REDACTED], [REDACTED]",
           "startDate": "[REDACTED].2016",
           "endDate": "[REDACTED].2016",
-          "role": "[REDACTED] [REDACTED] online communications firm and digital marketing agency, [REDACTED] [REDACTED], [REDACTED], [REDACTED] [REDACTED] [REDACTED] [REDACTED]",
-          "achievements": ["[REDACTED] technical advice on bugs and enhancements for marketing team.", "Resolve [REDACTED] [REDACTED] [REDACTED] defects, lowering the [REDACTED] [REDACTED] overall tech debt footprint.", "Develop [REDACTED] [REDACTED]-[REDACTED] features [REDACTED] 4+ [REDACTED] web applications."]
+          "role": "Developed for [REDACTED] online communications firm [REDACTED] digital marketing agency, [REDACTED] [REDACTED] [REDACTED], [REDACTED], [REDACTED] [REDACTED] [REDACTED] [REDACTED]",
+          "achievements": ["Develop new UI features [REDACTED] various [REDACTED] applications [REDACTED] providing technical advice [REDACTED] [REDACTED] [REDACTED] [REDACTED], resolving [REDACTED] [REDACTED]/[REDACTED] defects [REDACTED] reducing [REDACTED] [REDACTED] [REDACTED] overall tech debt [REDACTED]."]
         },
         {
           "organization": "Clarity Ventures, Inc.",
@@ -159,8 +159,8 @@
           "location": "[REDACTED], [REDACTED]",
           "startDate": "[REDACTED].2016",
           "endDate": "[REDACTED].2016",
-          "role": "[REDACTED] [REDACTED] web development consulting services company, [REDACTED] [REDACTED] cross-functional, in-house development [REDACTED] [REDACTED]",
-          "achievements": ["[REDACTED] [REDACTED] daily scrums to gathering user requirements, [REDACTED] [REDACTED], [REDACTED] [REDACTED], [REDACTED] [REDACTED] [REDACTED] [REDACTED].", "[REDACTED] [REDACTED] debug internal applications.", "[REDACTED] [REDACTED] [REDACTED] 3+ application interfaces."]
+          "role": "Developed for [REDACTED] consulting services agency, [REDACTED] [REDACTED] [REDACTED]-[REDACTED] [REDACTED] [REDACTED] [REDACTED]",
+          "achievements": ["[REDACTED] [REDACTED] daily scrums [REDACTED] gathering user requirements, plan projects, design prototypes, [REDACTED] plan project lifecycles, [REDACTED] debugging [REDACTED] developing multiple [REDACTED] [REDACTED] applications."]
         }
       ]
     }
