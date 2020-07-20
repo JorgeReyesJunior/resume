@@ -5,7 +5,7 @@
       "first": "Jorge",
       "last": "Reyes",
       "suffix": "Jr.",
-      "profession": "Software Engineer",
+      "profession": "Front-End Engineer",
       "auxiliary": ["Web Developer", "Software Engineer"]
     },
     "bio--redacted": {
@@ -26,19 +26,19 @@
     },
     "contact": {
       "title": "contact",
-      "email": "reyes.junior.27@gmail.com",
+      "email": "jorge.a.reyes.junior@gmail.com",
       "linkedin": "https://www.linkedin.com/in/jareyesjr/",
-      "github": "https://jorgereyesjunior.github.io/"
+      "github": "https://github.com/jorgeareyesjr"
     },
     "contact--redacted": {
       "title": "contact",
       "email": "[REDACTED]",
       "linkedin": "[REDACTED]",
-      "github": "https://jorgereyesjunior.github.io/"
+      "github": "https://github.com/jorgeareyesjr"
     },
     "projects": {
       "title": "projects",
-      "github": "https://jorgereyesjunior.github.io"
+      "github": "https://jorgeareyesjr.github.io/"
     },
     "education": {
       "title": "education",
