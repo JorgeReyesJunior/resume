@@ -57,30 +57,24 @@
     "skills": {
       "title": "skills",
       "primary": {
-        "Version Control": ["Git", "Mercurial"],
+        "Languages": ["Javascript(ES6)", "Node.js", "CoffeeScript"],
         "APIs": ["REST", "graphQL"],
         "Markup": ["HTML5"],
-        "Styling": ["CSS3", "Less", "Sass"],
-        "Scripting": ["CoffeeScript", "JavaScript", "Node.js"],
-        "Frameworks": ["Express.js"],
-        "Libraries": ["jQuery", "React", "Redux", "Redux-Saga"],
-        "Tools": ["Babel", "PostCSS", "Webpack"]
+        "Styling": ["Responsive design", "CSS3", "Less", "Sass", "PostCSS"],
+        "Frameworks": ["Babel", "Webpack", "Express.js", "React", "Redux", "Redux-Saga", "jQuery"]
       },
-      "secondary": ["Backbone.js", "Docker/Containerization", "PHP", "Python", "Require.js", "Underscore.js", "Wordpress", "XHTML"]
+      "secondary": ["Agile/Scrum", "Git/Mercurial", "Docker/Containerization"]
     },
     "skills--redacted": {
       "title": "skills",
       "primary": {
-        "Version Control": ["Git", "[REDACTED]"],
-        "APIs": ["[REDACTED]", "graphQL"],
+        "Languages": ["Javascript(ES6)", "Node.js", "[REDACTED]"],
+        "APIs": ["REST", "graphQL"],
         "Markup": ["HTML5"],
-        "Styling": ["CSS3", "Less", "Sass"],
-        "Scripting": ["[REDACTED]", "JavaScript", "Node.js"],
-        "Frameworks": ["Express.js"],
-        "Libraries": ["[REDACTED]", "React", "Redux", "Redux-Saga"],
-        "Tools": ["[REDACTED]", "PostCSS", "Webpack"]
+        "Styling": ["Responsive design", "CSS3", "[REDACTED]", "[REDACTED]", "[REDACTED]"],
+        "Frameworks": ["[REDACTED]", "Webpack", "Express.js", "React", "Redux", "Redux-Saga", "[REDACTED]"]
       },
-      "secondary": ["[REDACTED]", "Docker/Containerization", "[REDACTED]", "Python", "[REDACTED]", "[REDACTED]", "[REDACTED]", "[REDACTED]"]
+      "secondary": ["[REDACTED]/[REDACTED]", "[REDACTED]/[REDACTED]", "Docker/Containerization"]
     },
     "experience": {
       "title": "experience",
