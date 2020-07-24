@@ -52,9 +52,9 @@ const Skillsets = (props) => {
                           return acc;
                         }, []);
   
-                        // Replace trailing comma with a period.
+                        // Replace trailing comma with empty space.
                         skillList.pop()
-                        skillList.push(".");
+                        skillList.push(" ");
                         
                         // Convert Array values into string (to detect redactions).
                         const redactedSkillList = skillList.join('');
