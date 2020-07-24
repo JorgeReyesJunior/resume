@@ -113,9 +113,9 @@ const Skillsets = (props) => {
                           return acc;
                         }, []);
   
-                        // Replace trailing comma with a period.
+                        // Trim trailing period.
                         skillList.pop()
-                        skillList.push(".");
+                        skillList.push("");
   
                         return (
                           <li key={utilities.generateNewKey(i)} className='s-temp-list__listing'>
